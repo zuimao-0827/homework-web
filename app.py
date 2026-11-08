@@ -251,4 +251,4 @@ with gr.Blocks(title="互動式影像處理與人臉分析工具") as demo:
 
 # 啟動時自動彈出瀏覽器
 if __name__ == "__main__":
-    demo.launch(inbrowser=True, share=False)
+    demo.launch(inbrowser=True, share=True)
